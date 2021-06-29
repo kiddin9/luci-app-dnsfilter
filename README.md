@@ -1,12 +1,17 @@
 # 基于DNS的广告过滤 for OpenWrt
 
-### 支持 AdGuardHome/Host/DNSMASQ/Domain 格式的规则订阅
+## 功能
 
-### 规则自动识别, 自动去重, 定时更新
+- 支持 AdGuardHome/Host/DNSMASQ/Domain 格式的规则订阅
 
-### 自定义黑白名单 
+- 规则自动识别, 自动去重, 定时更新
 
-### 短视频APP拦截
+- 自定义黑白名单
 
-### 安全搜索
+- 短视频APP拦截
 
+- 安全搜索
+
+## 编译说明
+
+本app依赖于```dnsmasq-full```，与OpenWrt默认的```dnsmasq```冲突，所以编译时请确保已经取消勾选```base-system -> dnsmasq```
