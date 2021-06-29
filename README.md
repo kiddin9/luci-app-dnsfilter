@@ -11,3 +11,7 @@
 - 短视频APP拦截
 
 - 安全搜索
+
+## 编译说明
+
+本app依赖于```dnsmasq-full```，与OpenWrt默认的```dnsmasq```冲突，所以编译时请确保已经取消勾选```base-system -> dnsmasq```
