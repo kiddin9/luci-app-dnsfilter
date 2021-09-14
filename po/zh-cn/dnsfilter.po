@@ -59,7 +59,7 @@ msgid "Subscribe Rules Data"
 msgstr "去广告规则"
 
 msgid "AdGuardHome / Host / DNSMASQ / Domain rules auto-convert"
-msgstr "AdGuardHome / Host / DNSMASQ /Domain 规则自动识别, 自动去重"
+msgstr "AdGuardHome / Host / DNSMASQ / Domain 规则自动识别, 自动去重"
 
 msgid "Save rules to flash"
 msgstr "保存规则到闪存"
